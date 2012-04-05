@@ -1,0 +1,27 @@
+# built application files
+*.apk
+*.ap_
+
+# files for the dex VM
+*.dex
+
+# Java class files
+*.class
+
+# generated files
+bin/
+gen/
+
+## Exclude Mac OS X files
+*.DS_Store
+
+## Exclude file used by compilators, interpreters, etc.
+*/bin/*
+*/gen/*
+*.pyc
+
+## The following files contain private values
+*/res/values/p_*.xml
+
+# Local configuration file (sdk path, etc)
+local.properties
